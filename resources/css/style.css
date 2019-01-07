@@ -5,4 +5,121 @@ html, body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  display: block;
+  margin: 0;
+}
+
+/*Header*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 69px;
+  padding: 0;
+  position: fixed;
+  z-index: 1;
+  border-bottom:1px solid seashell;
+}
+
+.logo {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 69px;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/*Nav*/
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  margin-right: 10px;
+  padding: 20px 10px;
+}
+
+/*Mission*/
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  min-height: 700px;
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  align-items: center;
+  opacity: 1;
+  padding-top: 70px;
+}
+
+.mission-text {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  display: inline-block;
+  background-color: black;
+  width: 1200px;
+  position: relative;
+  vertical-align: middle;
+}
+
+
+/*Tea of the Month*/
+
+.teamonth {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tea {
+  padding: 15px;
+}
+
+.tea img {
+  max-height: 200px;
+  max-width: 300px;
+}
+
+.teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*Locations*/
+
+.locations {
+  min-height: 500px;
+  max-width: 1200px;
+  margin: 0px auto;
+  text-align: center;
+  padding-top: 70px;
+  opacity: 1;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.location {
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  background-color: black;
+}
+
+/*Contact*/
+
+/*Footer*/
+
+.footer {
+  position: relative;
+  opacity: 1;
+  text-align: left;
+  margin-left: 20px;
 }
